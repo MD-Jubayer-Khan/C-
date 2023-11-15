@@ -17,6 +17,6 @@ class student {
 
 int main () {
         student *rohim = new student(23, 7, 4.44);
-    cout<< rohim->roll << " " << rohim->cls << " " << rohim->gpa << endl;
+    cout<< rohim->roll << " " << rohim->cls << " " << rohim->gpa;
     return 0;
 }
