@@ -7,7 +7,8 @@ int main () {
     cin >> s;
     for (string :: iterator it = s.begin(); it < s.end(); it++)
     {
-        cout << *it;
+        char currentChar = *it;
+        cout << currentChar;
     }
     
     return 0;
